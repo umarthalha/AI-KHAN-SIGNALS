@@ -1,0 +1,22 @@
+{
+  "name": "neo-signal-backend",
+  "version": "2.0.0",
+  "description": "NSE/BSE Indian Swing Signals Terminal Backend & Simulator",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.13",
+    "fast-xml-parser": "^4.3.6",
+    "ws": "^8.16.0",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.2.0",
+    "dotenv": "^16.4.5"
+  },
+  "author": "NEO-SIGNAL Team",
+  "license": "ISC"
+}

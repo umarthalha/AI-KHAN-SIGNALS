@@ -1,0 +1,24 @@
+# =========================================================================
+# AI KHAN SIGNALS - SECURE GITIGNORE CONFIGURATIONS
+# =========================================================================
+
+# 1. Ignore private environment variables (NEVER commit secrets to GitHub!)
+.env
+.env.local
+.env.*.local
+
+# 2. Ignore local database files containing private portfolio balances
+db.json
+
+# 3. Ignore Node.js package dependency folders
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 4. Ignore local ZIP files
+ai_khan_signals.zip
+
+# 5. Ignore system files
+.DS_Store
+Thumbs.db
